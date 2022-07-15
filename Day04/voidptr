@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdint.h>
+
+int main(void){
+    int num = 20;
+    double pi = 3.14;
+    char sym = 'Z';
+    void *ptr;
+    ptr = &num;
+    printf("%p\n", ptr);
+    ptr = &pi;
+    printf("%p\n", ptr);
+    ptr = &sym;
+    printf("%p\n", ptr);
+    return 0;
+}
