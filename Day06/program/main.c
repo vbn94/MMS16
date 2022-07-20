@@ -3,7 +3,7 @@
 
 int main(){
     int result = sum(10, 2) + mult(5, 6);
-    printf("Result = %d\n", result);
+    printf("Result = %d\n", b);
     return 0;
 }
 
