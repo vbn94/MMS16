@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
+// #define ROWS 10
+
 int main(){
+    int i = ROWS;
     srand(time(NULL));    
     int n, m;
     scanf("%d %d", &n, &m);
