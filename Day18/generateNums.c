@@ -54,5 +54,6 @@ int main(int argc, char *argv[]){
     if(fd_o != -1){
         close(fd_o);
     }
+    sleep(10);
     return EXIT_SUCCESS;
 }
